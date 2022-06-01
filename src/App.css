@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  background-color: aliceblue;
+}
+.nav-left {
+  padding-left: 10%;
+}
+.nav-right {
+  display: flex;
+  width: 50%;
+  justify-content:end;
+}
+.nav-right a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: black;
+  padding: 0 5%;
+}
+.nav-right a:hover {
+  color: blue;
+}
+
+/* Home */
+.home {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.counter {
+  width: 60%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid;
+}
+.counter p {
+  font-size: 3rem;
+}
+.plus-btn {
+  font-size: 2rem;
+  border: none;
+  background-color: none;
+  background-color: white;
+}
+.subtract-btn {
+  font-size: 2rem;
+  border: none;
+  background-color: none;
+  background-color: white;
+}
+.reset-btn {
+  border: none;
+  background-color: white;
+  font-size: 1.5rem;
+}
+.counter-a {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.counter-a h3 {
+  width: 20%;
+}
+.counter-b {
+  width: 100%;
+}
+.heading{
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.green{
+  color: green;
+}
+.red{
+  color: red;
+}
